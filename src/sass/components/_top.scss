@@ -118,6 +118,7 @@
 
   > h1 {
     padding: $header-padding-vertical $header-padding-horizontal;
+    clear: both;
 
     @if $use-logo {
       padding-left: $logo-image-width + $logo-position-horizontal + $logo-space;
@@ -155,6 +156,7 @@
   img {
     margin-left: 15px;
     margin-top: 10px !important;
+    float: left;
   }
 }
 
